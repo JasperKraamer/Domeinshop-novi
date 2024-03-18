@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
+
+header {
+    border:2px solid;
+    text-align:center;
+    max-width:1000px;
+    height: 400px;
+    background-image: url("https://github.com/hogeschoolnovi/frontend-html-css-domeinshop/blob/master/assets/images/mountains.jpg?raw=true");
+    background-position: center;
+    background-size: cover;
+    padding-top: 100px;
+    color: #1C2B32;
+
+
+}
+
+.header_text {
+    margin-bottom: 20px;
+    font-size: 65px;
+    position: relative;
+    bottom: 70px;
+}
+.motto{
+    position: relative;
+    bottom: 90px;
+    font-size: 9px;
+    margin-bottom: 20px;
+}
+.inputveld{
+    position: relative;
+    bottom: 90px;
+    border: 2px;
+    border-color: indianred;
+    font-size: 9px;
+}
+.klant{
+    margin-top: 30px;
+
+}
+
+.transparent-input {
+    position: relative;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 10px;
+    color: black;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    height: 45px;
+    width: 200px;
+    font-size: 10px;
+}
+.transparent-input:focus{
+    outline: none;
+}
+
+.submit{
+    position: relative;
+    right: 6px;
+    width: 150px;
+    background-color: #1C2B32  ;
+    border: 1px solid black;
+    padding: 10px;
+    color: white;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    height: 45px;
+    font-size: 10px;
+}
+.submit:hover{
+    background-color: #30474f;
+}
+.submit:active{
+    background-color: #182328;
+}
+
+main {
+    text-align: center;
+}
+
+.quote1 {
+    text-align: left;
+    max-width: 700px;
+    height: 150px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    position: relative;
+    top: 20px;
+    left: 150px;
+    margin: 20px 0px 20px 0px;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.5);
+
+}
+
+
+
+blockquote {
+    position: relative;
+    padding-left: 25px;
+font-size: 10px;
+}
+
+.icon {
+    position: absolute;
+    left: 0;
+    top: 10%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-image: url('https://github.com/hogeschoolnovi/frontend-html-css-domeinshop/blob/master/assets/icons/quote-left.png?raw=true'); /* Pad naar de afbeelding */
+    background-size: cover;
+    margin-right: 5px;
+}
+
+
+cite {
+    margin-left: 10px; /* Afstand tussen de afbeelding en de cite-tekst */
+}
+
+.cite-jane {
+    display:inline-block ;
+    width: 30px;
+    height: 30px;
+    background-image: url('https://github.com/hogeschoolnovi/frontend-html-css-domeinshop/blob/master/assets/images/avatar-jane.png?raw=true'); /* pad naar de afbeelding */
+    background-size: cover;
+    margin-right: 5px;
+    top: 10%;
+}
+
+.cite-john {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url('https://github.com/hogeschoolnovi/frontend-html-css-domeinshop/blob/master/assets/images/avatar-john.png?raw=true'); /* pad naar de afbeelding */
+    background-size: cover;
+    margin-right: 5px;
+    top: 10%;
+}
+
+
+.details{
+    position: relative;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 70px;
+    text-align: center;
+   width: 700px;
+
+}
+
+.detail-looks{
+
+    text-align: left;
+    padding-bottom: 20px;
+    max-width: 700px;
+}
+
+
+.h2-klaarstaan{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.callcenter{
+    position: center;
+    max-width: 700px;
+    height: 100%;
+    margin-left: 150px;
+}
+.foto-callcenter{
+   display:inline-block;
+    max-width: 700px;
+    border-radius: 10px;
+}
+
+main{
+    max-width: 1000px;
+}
+
+.p-callcenter{
+    text-align: left;
+    font-size: 9px;
+    margin-top: 15px;
+}
+
+.dropdown{
+    max-width: 700px;
+    background-color: lightslategray;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.submit-div{
+    position: absolute;
+}
+
+.submit-contact{
+    position: relative;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #1C2B32;
+    color: white;
+    margin-left: -600px;
+    font-size: 10px;
+    margin-top: 10px;
+    border: 0px;
+}
+.submit-contact:hover{
+    background-color: #30474f;
+}
+.submit-contact:active{
+    background-color: #182328;
+}
+
+.veel-vragen{
+    margin: 20px;
+}
+
+footer{
+     position: relative;
+     left: 0;
+     bottom: 0;
+     width: 1000px;
+     text-align: center;
+     background-color: #1C2B32;
+     height: 50px;
+ }
+.footer-position{
+    position: relative;
+    color: white;
+    font-size: 10px;
+    top: 20px;
+}
